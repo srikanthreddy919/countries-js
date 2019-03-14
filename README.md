@@ -32,6 +32,11 @@ and call `loadCountries()` function on `Document` load
 </script>
 
 ```
+to populate selected values use below `data attributes`
+
+for country `data-country=countryName` 
+
+for state `data-state=stateName`
 
 #### 2. Using javascript
 
