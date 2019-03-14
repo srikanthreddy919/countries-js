@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Countries</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5 mb-4" style="min-height: 80vh">
+      <h4 class="text-center font-weight-bold text-primary mb-5">Countries & States Js</h4>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <div data-toggle-group="location">
+            <div class="form-group">
+              <label>Country</label>
+              <select class="form-control" name="country" data-toggle="country" data-country=""></select>
+            </div>
+            <div class="form-group">
+              <label>State</label>
+              <select class="form-control" name="country" data-toggle="state" data-state=""></select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center"><p>Find me on <a href="https://github.com/srikanthreddy919/countries-js">Github</a></p></footer>
+
+    <script type="text/javascript" src="countries.js"></script>
+    <script type="text/javascript">
+      document.addEventListener("load", loadCountries());
+    </script>
+  </body>
+</html>
